@@ -977,6 +977,9 @@
     "/gov/anhui/kjt/:path?": [
         "nczitzk"
     ],
+    "/gov/beijing/jw/tzgg": [
+        "nczitzk"
+    ],
     "/gov/beijing/kw/:channel": [
         "Fatpandac"
     ],
@@ -1284,13 +1287,6 @@
     ],
     "/jandan/": [
         "nczitzk"
-    ],
-    "/jasa/latest": [
-        "Derekmini",
-        "auto-bot-ty"
-    ],
-    "/jasa/section/:id": [
-        "Derekmini"
     ],
     "/javbus/": [
         "MegrezZhu",
