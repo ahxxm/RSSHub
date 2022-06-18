@@ -23,6 +23,9 @@
     "/18comic/:category?/:time?/:order?/:keyword?": [
         "nczitzk"
     ],
+    "/19lou/:city?": [
+        "nczitzk"
+    ],
     "/35photo/actual": [
         "nczitzk"
     ],
@@ -404,6 +407,12 @@
     "/cncf/:cate?": [
         "Fatpandac"
     ],
+    "/cnjxol/jxrb/:id?": [
+        "nczitzk"
+    ],
+    "/cnjxol/nhwb/:id?": [
+        "nczitzk"
+    ],
     "/cnki/journals/:name": [
         "Fatpandac"
     ],
@@ -488,6 +497,12 @@
     ],
     "/dockerhub/tag/:owner/:image": [
         "outloudvi"
+    ],
+    "/domp4/detail/:id": [
+        "savokiss"
+    ],
+    "/domp4/latest/:type?": [
+        "savokiss"
     ],
     "/dongqiudi/daily": [
         "HenryQW"
