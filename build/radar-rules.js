@@ -8161,6 +8161,17 @@
         docs:"https://docs.rsshub.app/program-update.html#oo-software-changelog",
         source:[ "/en/changelog" ],
         target:(params, url) => `/oo-software/changelog/${new URL(url).match(/\/en\/(.*?)\/changelog/)[1]}` } ] },
+  "openai.com":{ _name:"OpenAI",
+    ".":[ { title:"Blog",
+        docs:"https://docs.rsshub.app/en/new-media.html#openai",
+        source:"/blog",
+        target:(_, url) => {
+                    const topics = new URL(url).searchParams.get('topics');
+                    if (topics) {
+                        return `/openai/blog/${topics}`;
+                    }
+                    return '/openai/blog';
+                } } ] },
   "openwrt.org":{ _name:"Openwrt",
     ".":[ { title:"Model Releases",
         docs:"https://docs.rsshub.app/program-update.html#openwrt",
@@ -10071,6 +10082,11 @@
         source:[ "/model3/design",
           "/" ],
         target:"/tesla/price" } ] },
+  "theatlantic.com":{ _name:"The Atlantic",
+    www:[ { title:"新闻",
+        docs:"https://docs.rsshub.app/traditional-media.html#the-atlantic",
+        source:"/:category",
+        target:"/theatlantic/:category" } ] },
   "thecatcity.com":{ _name:"貓奴日常",
     ".":[ { title:"貓物分享｜流行小物、貓咪用品",
         docs:"https://docs.rsshub.app/new-media.html#mao-nu-ri-chang",
