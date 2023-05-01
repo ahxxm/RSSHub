@@ -1772,6 +1772,9 @@
     "/fosshub/:id": [
         "nczitzk"
     ],
+    "/freebuf/articles/:type": [
+        "trganda"
+    ],
     "/freecomputerbooks/": [
         "cubroe"
     ],
@@ -2460,6 +2463,9 @@
     ],
     "/hnrb/:id?": [
         "nczitzk"
+    ],
+    "/hnu/careers": [
+        "ningyougan"
     ],
     "/hongkong/dh/:language?": [
         "nczitzk"
@@ -3491,7 +3497,7 @@
     "/newzmz/:category?": [
         "nczitzk"
     ],
-    "/newzmz/view/:id?": [
+    "/newzmz/:id?": [
         "nczitzk"
     ],
     "/nextapple/realtime/:category?": [
@@ -4440,6 +4446,9 @@
     ],
     "/sdu/wh/jwc/:column?": [
         "kxxt"
+    ],
+    "/sdust/yjsy/zhaosheng/:id?": [
+        "nczitzk"
     ],
     "/secnews/index": [
         "kaiili"
@@ -7105,7 +7114,6 @@
     "/netflix/newsroom/:category?/:region?": [],
     "/sbs/chinese/:category?/:id?/:dialect?/:language?": [],
     "/questmobile/report/:category?/:label?": [],
-    "/rss3/blog": [],
     "/fashionnetwork/news/:sectors?/:categories?/:language?": [],
     "/dykszx/news/:type?": [],
     "/fashionnetwork/headline/:country?": []
