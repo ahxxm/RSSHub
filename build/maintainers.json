@@ -1990,8 +1990,10 @@
   "/github/branches/:user/:repo": [
     "max-arnold"
   ],
-  "/github/comments/:user/:repo/:type/:number": [],
-  "/github/comments/:user/:repo/:number?": [],
+  "/github/comments/:user/:repo/:number?": [
+    "TonyRL",
+    "FliegendeWurst"
+  ],
   "/github/contributors/:user/:repo/:order?/:anon?": [
     "zoenglinghou"
   ],
@@ -3016,6 +3018,15 @@
   ],
   "/jou/yztzgg": [
     "real-jiakai"
+  ],
+  "/jpxgmn/search/:kw": [
+    "Urabartin"
+  ],
+  "/jpxgmn/tab/:tab?": [
+    "Urabartin"
+  ],
+  "/jpxgmn/weekly": [
+    "Urabartin"
   ],
   "/jseea/news/:type?": [
     "schen1024"
@@ -4617,6 +4628,9 @@
   ],
   "/seekingalpha/:symbol/:category?": [
     "TonyRL"
+  ],
+  "/sega/maimaidx/news": [
+    "randompasser"
   ],
   "/sega/pjsekai/news": [
     "15x15G"
